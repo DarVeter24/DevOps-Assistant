@@ -31,24 +31,24 @@
 - **Vector Search**: OpenSearch 2.x с Vector Search + Neural Search
 - **Embeddings**: sentence-transformers
 
-### Инфраструктура
+### Приложение
+- **Backend**: FastAPI
+- **Frontend**: Open WebUI (готовый чат-интерфейс)
+- **Automation**: N8N для workflow'ов
+
+### Devops Инфраструктура
 - **Orchestration**: Kubernetes + ArgoCD (GitOps)
 - **Monitoring**: Prometheus + Grafana + Alertmanager
 - **Logging**: OpenSearch Stack (OpenSearch + Logstash + OpenSearch Dashboards)
 - **Storage**: PostgreSQL + MinIO + Nexus + Redis
 - **Security**: HashiCorp Vault + KSOPS
 
-### ML платформа
+### MLops платформа
 - **Streaming**: Apache Kafka
 - **Processing**: Apache Spark
 - **Orchestration**: Apache Airflow
 - **Tracking**: MLFlow
 - **Serving**: KServe
-
-### Приложение
-- **Backend**: FastAPI
-- **Frontend**: Open WebUI (готовый чат-интерфейс)
-- **Automation**: N8N для workflow'ов
 
 ### Интеграция с MLOps стеком
 - Kafka, Airflow, MLFlow, Spark, KServe
